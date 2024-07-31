@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(218, 218, 218);
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#tabela-info {
+    font-size: 1.5em;
+    border: black 1px;
+    margin-bottom: 30px;
+}
+
+#div-formulario input,
+#div-formulario button {
+    border: none;
+    font-size: 24px;
+    border-bottom: 2px solid;
+}
+
+form {
+    display: flex;
+    max-width: 740px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#div-formulario button {
+    background-color: greenyellow;
+    border-radius: 5px;
+    border: none;
+    padding: 12px;
+}
+
+#div-formulario {
+    padding-bottom: 20px;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    margin-bottom: 16px;
+}
+
+table {
+    max-width: 740px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+table td+td {
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
